@@ -27,7 +27,7 @@ abstract class CreateInterface {
     required String model,
     required List<OpenAIChatCompletionChoiceMessageModel> messages,
     List<OpenAIToolModel>? tools,
-    Map<String, dynamic>? toolChoice,
+    String? toolChoice,
     double? temperature,
     double? topP,
     int? n,
